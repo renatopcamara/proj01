@@ -1,6 +1,7 @@
 {
   "name": "Proj01",
-  "app_id": "",
+  "app_id": "ac8aca12",
   "v2": true,
-  "typescript": true
+  "typescript": true,
+  "DefaultBrowser": "chrome"
 }
