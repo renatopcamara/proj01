@@ -6,14 +6,16 @@ import { SignupPage } from '../pages/signup/signup';
 import { CrudPage } from '../pages/crud/crud';
 import { TabsPage } from '../pages/tabs/tabs';
 import { BackandService } from '../providers/backandService';
+import { ToastTestPage } from '../pages/toast-test/toast-test';
 
 @NgModule({
   declarations: [
     MyApp,
-    LoginPage,
+  /*  LoginPage,*/
     SignupPage,
     CrudPage,
-    TabsPage
+    TabsPage,
+    ToastTestPage
   ],
   imports: [
     IonicModule.forRoot(MyApp)
@@ -21,10 +23,11 @@ import { BackandService } from '../providers/backandService';
   bootstrap: [IonicApp],
   entryComponents: [
     MyApp,
-    LoginPage,
+  /*  LoginPage, */
     SignupPage,
-    CrudPage,    
-    TabsPage
+    CrudPage,
+    TabsPage,
+    ToastTestPage
   ],
   providers: [BackandService]
 })
