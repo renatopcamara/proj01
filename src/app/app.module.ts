@@ -6,6 +6,7 @@ import { SignupPage } from '../pages/signup/signup';
 import { CrudPage } from '../pages/crud/crud';
 import { TabsPage } from '../pages/tabs/tabs';
 import { BackandService } from '../providers/backandService';
+import { ToastTestPage } from '../pages/toast-test/toast-test';
 
 @NgModule({
   declarations: [
@@ -13,7 +14,8 @@ import { BackandService } from '../providers/backandService';
     LoginPage,
     SignupPage,
     CrudPage,
-    TabsPage
+    TabsPage,
+    ToastTestPage
   ],
   imports: [
     IonicModule.forRoot(MyApp)
@@ -23,8 +25,9 @@ import { BackandService } from '../providers/backandService';
     MyApp,
     LoginPage,
     SignupPage,
-    CrudPage,    
-    TabsPage
+    CrudPage,
+    TabsPage,
+    ToastTestPage
   ],
   providers: [BackandService]
 })

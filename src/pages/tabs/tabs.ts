@@ -3,6 +3,7 @@ import { Component } from '@angular/core';
 import { LoginPage } from '../login/login';
 import { SignupPage } from '../signup/signup';
 import { CrudPage } from '../crud/crud';
+import { ToastTestPage } from '../toast-test/toast-test';
 
 @Component({
   templateUrl: 'tabs.html'
@@ -10,9 +11,11 @@ import { CrudPage } from '../crud/crud';
 export class TabsPage {
   // this tells the tabs component which Pages
   // should be each tab's root Page
-  tab1Root: any = LoginPage;
-  tab2Root: any = SignupPage;
-  tab3Root: any = CrudPage;
+
+  tab1Root: any = ToastTestPage;
+  tab2Root: any = LoginPage;
+  tab3Root: any = SignupPage;
+  tab4Root: any = CrudPage;
 
   constructor() {
 
