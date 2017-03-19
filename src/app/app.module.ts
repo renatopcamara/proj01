@@ -11,7 +11,7 @@ import { ToastTestPage } from '../pages/toast-test/toast-test';
 @NgModule({
   declarations: [
     MyApp,
-  /*  LoginPage,*/
+    LoginPage,
     SignupPage,
     CrudPage,
     TabsPage,
@@ -23,7 +23,7 @@ import { ToastTestPage } from '../pages/toast-test/toast-test';
   bootstrap: [IonicApp],
   entryComponents: [
     MyApp,
-  /*  LoginPage, */
+    LoginPage,
     SignupPage,
     CrudPage,
     TabsPage,
