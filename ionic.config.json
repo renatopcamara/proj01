@@ -1,6 +1,8 @@
 {
   "name": "Proj01",
   "app_id": "",
+  "watchPatterns": [
+    "src/pages/*"],
   "v2": true,
   "typescript": true
 }
