@@ -4,11 +4,11 @@
   "homepage": "http://ionicframework.com/",
   "private": true,
   "scripts": {
-    "clean": "ionic-app-scripts clean",
     "build": "ionic-app-scripts build",
     "serve": "ionic-app-scripts serve",
-    "ionic:build": "ionic-app-scripts build",
-    "ionic:serve": "ionic-app-scripts serve"
+    "clean": "ionic-app-scripts clean",
+    "sass": "ionic-app-scripts sass",
+    "copy": "ionic-app-scripts copy"
   },
   "dependencies": {
     "@angular/common": "2.2.1",
