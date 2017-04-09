@@ -5,6 +5,7 @@
   "private": true,
   "scripts": {
     "build": "ionic-app-scripts build",
+    "watch": "ionic-app-scripts watch",
     "serve": "ionic-app-scripts serve",
     "clean": "ionic-app-scripts clean",
     "sass": "ionic-app-scripts sass",
