@@ -1,15 +1,12 @@
 {
   "name": "Proj01",
-  "app_id": "",
-  "watchPatterns": [
-    "src/pages/*"],
   "app_id": "ac8aca12",
-  "v2": true,
   "watchPatterns": [
     "www/js/*",
     "!www/css/**/*",
     "src/**/*"
   ],
+  "v2": true,
   "typescript": true,
   "DefaultBrowser": "chrome"
 }
